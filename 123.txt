@@ -1,0 +1,23 @@
+B-278417
+----------------------------------------------------------
+CI 21k is converted CI 22 k based on effective date
+> if date is before grandfather date, Grandfather status should be False, 
+>if after that date, it should be True
+1) How to identify grandfathered group?----it is showed in that contract > grandfathered
+2)what is grandfather status and date? this are the new variables  we need to add
+-------------------
+1) Not having sufficient information on Grandfather status need assistance on that.
+2)How To identify grandfathered group. 
+3) Added 2 parameters that is granfather date and another is grandfather status in CI-21K 
+when i am importing it in postman it is throwing file not supported error -*
+
+
+CI 21k has an effective date of 1-1-21
+CI 22k has an effective date from 1-4-22
+-----------------------------------------------------------
+Description:GetGBPDetails must return CI products 
+in the correct order and with the Grandfather Status on CI21K (Analysis)
+....
+1) add Grandfather status of product
+2)Grandfather status and date will be added to  the info return in response
+3) Grandfather status should be added on CI21K as mentioned
